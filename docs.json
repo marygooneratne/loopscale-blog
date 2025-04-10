@@ -19,7 +19,7 @@
   },
   "appearance": { "default": "light", "strict": true },
   "navigation": {
-    "pages": ["home", "flex-appeal", "launch", "modular-lending", "closed-beta", "structured-products"]
+    "pages": ["home", {"group": "Posts", "pages":[ "posts/launch", "posts/structured-products","posts/flex-appeal","posts/modular-lending", "posts/closed-beta" ]}]
   },
   "logo": {
     "light": "/static/assets/logo/light.svg",
