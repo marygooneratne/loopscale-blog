@@ -20,11 +20,9 @@ import {metadata} from '/snippets/constants.mdx'
 ---
 ## Recent
 <CardGroup cols={2}>
-{
-metadata.posts.map(({title, href, image}) => {
-    return <Card title={title}  img={image} href={href}>
-  {metadata.featured.date}
-</Card>}
-)
+  {
+  metadata.posts.map(({title, href, image}, i) => {
+      return <Card key={i} title={title}  img={image} href={href}> {metadata.featured.date} </Card>
+    })
 }
 </CardGroup>
