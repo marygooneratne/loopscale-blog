@@ -19,7 +19,7 @@
   },
   "appearance": { "default": "light", "strict": true },
   "navigation": {
-    "pages": ["/home"]
+    "pages": ["home"]
   },
   "logo": {
     "light": "/static/assets/logo/light.svg",
